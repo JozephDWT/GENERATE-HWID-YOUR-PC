@@ -1,0 +1,5 @@
+C:\Users\Jozeph\source\repos\HWID\HWID\bin\x64\Release\HWID.exe.config
+C:\Users\Jozeph\source\repos\HWID\HWID\bin\x64\Release\HWID.exe
+C:\Users\Jozeph\source\repos\HWID\HWID\obj\x64\Release\HWID.csproj.AssemblyReference.cache
+C:\Users\Jozeph\source\repos\HWID\HWID\obj\x64\Release\HWID.csproj.CoreCompileInputs.cache
+C:\Users\Jozeph\source\repos\HWID\HWID\obj\x64\Release\HWID.exe
