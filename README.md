@@ -5,13 +5,13 @@
 
 ## ENGLISH
 
-> This is just an example of how an HWID can be generated based on unique identifiers of your hardware.
+> This is just an example of how you can generate an HWID based on the unique identifiers of your hardware. It can be used for many purposes..
 
 ---
 
 ## РУССКИЙ
 
-> Это всего лишь пример того, как можно сгенерировать HWID на основе уникальных идентификаторов вашего железа.
+> Это всего лишь пример того, как можно сгенерировать HWID на основе уникальных идентификаторов вашего железа. Можно использоваться в многих целях..
 
 ---
 
