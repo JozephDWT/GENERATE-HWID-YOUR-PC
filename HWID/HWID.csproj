@@ -72,8 +72,7 @@
   <ItemGroup>
     <Compile Include="SOURCE\HARDWARE\MotherboardSerial.cs" />
     <Compile Include="SOURCE\HARDWARE\CpuId.cs" />
-    <Compile Include="SOURCE\HARDWARE\MachineGuid.cs" />
-    <Compile Include="SOURCE\HARDWARE\SytemDiskSerial.cs" />
+    <Compile Include="SOURCE\HARDWARE\RamSerialHash.cs" />
     <Compile Include="SOURCE\HELPER\CacheManager.cs" />
     <Compile Include="SOURCE\HELPER\HardwareCollector.cs" />
     <Compile Include="SOURCE\HELPER\Hasher\HwidHasher.cs" />

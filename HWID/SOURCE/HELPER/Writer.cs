@@ -35,7 +35,7 @@ namespace HWID.SOURCE.HELPER
                 sb.AppendLine($"{kv.Key,-15}: {_hasher.Sha256(kv.Value)}");
 
             sb.AppendLine()
-              .AppendLine("Порядок того, на чем был создан HWID: " +
+              .AppendLine("HWID ОСНОВАН: " +
                           string.Join(" | ", parts.Keys.OrderBy(k => k)))
               .AppendLine("========================");
 

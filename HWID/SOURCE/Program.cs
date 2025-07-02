@@ -8,35 +8,31 @@ namespace HWID.SOURCE
 {
     internal class Program
     {
-        // 3 из 4 компонентов совпало → считаем, что это тот же ПК
-        private const int Match = 3;
-
         static void Main()
         {
+            // Список идентификаторов
             var providers = new List<IHardwareComponent>
             {
-                new MachineGuid(),
-                new CpuId(),
-                new MotherboardSerial(),
-                new SytemDiskSerial()
+                new CpuId(), //проц-CPU
+                new MotherboardSerial(), //мат-плата-Motheboard
+                new RamSerialHash() // озу-RAM
             };
 
             var collector = new HardwareCollector(providers);
             var hasher = new HwidHasher();
             var cacheManager = new CacheManager();
-            var report = new Writer(hasher);
+            var reportWriter = new Writer(hasher);
 
-            Dictionary<string, string> Parts = collector.Collect();
-            string Hwid = hasher.ComputeOverall(Parts);
+            // Сбор данных
+            Dictionary<string, string> parts = collector.Collect();
 
-            string finalHwid = cacheManager.ResolveHwid(
-                                    Hwid,
-                                    Parts,
-                                    Match);
+            string hwid = hasher.ComputeOverall(parts);
+            string finalHwid = cacheManager.ResolveHwid(hwid, parts);
 
-            report.WriteDesktopReport(finalHwid, Parts);
+            // Отчёт
+            reportWriter.WriteDesktopReport(finalHwid, parts);
 
-            Console.WriteLine("готово! Нажми 'Enter' для выхода.");
+            Console.WriteLine("Готово! Нажмите Enter для выхода.");
             Console.ReadLine();
         }
     }
