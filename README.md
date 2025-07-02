@@ -1,9 +1,6 @@
 # GENERATE HWID YOUR PC
 
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.x-blueviolet)](https://dotnet.microsoft.com/)  [![C# Version](https://img.shields.io/badge/C%23-7.3-brightgreen)](https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-7-3)
-
-A tiny demonstration project that shows **one possible approach** to creating a hardware‑bound identifier (HWID) by combining several machine‑specific values.
-
 ---
 
 ## 📜 ENGLISH
@@ -18,5 +15,5 @@ A tiny demonstration project that shows **one possible approach** to creating a 
 
 ---
 
-[DISCORD-AUTHOR](https://discord.gg/uMjN6xrDjM).
+[DISCORD-AUTHOR](https://discord.gg/uMjN6xrDjM)
 
