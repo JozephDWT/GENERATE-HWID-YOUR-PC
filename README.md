@@ -17,6 +17,7 @@
 
 ---
 
+# LATEST VERSION V.1.2 (02.07.2025)
 
 [DISCORD-AUTHOR](https://discord.gg/uMjN6xrDjM)
 
