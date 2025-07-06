@@ -1,0 +1,7 @@
+C:\Users\Jozeph\Desktop\Новая папка\HWID\bin\Debug\HWID.exe.config
+C:\Users\Jozeph\Desktop\Новая папка\HWID\bin\Debug\HWID.exe
+C:\Users\Jozeph\Desktop\Новая папка\HWID\bin\Debug\HWID.pdb
+C:\Users\Jozeph\Desktop\Новая папка\HWID\obj\Debug\HWID.csproj.AssemblyReference.cache
+C:\Users\Jozeph\Desktop\Новая папка\HWID\obj\Debug\HWID.csproj.CoreCompileInputs.cache
+C:\Users\Jozeph\Desktop\Новая папка\HWID\obj\Debug\HWID.exe
+C:\Users\Jozeph\Desktop\Новая папка\HWID\obj\Debug\HWID.pdb
